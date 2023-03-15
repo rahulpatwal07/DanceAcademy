@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+TAS+Beginner&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slide-img {
+    height: 90vh;
+}
+
+.card-heading {
+    padding: 7px;
+    margin: 5px auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-weight: 700;
+    font-size: 49px;
+    width: 50%;
+    border-radius: 5px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.card-text {
+    font-family: 'Merriweather', serif;
+}
+
+.section{
+    height: 70vh;
+    position: relative;
+    background-image: url('../images/backgroundimg.jpg');
+    background-size: cover;
+}
+.section3-text{
+    /* background-color: white; */
+    color:white;
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    float: left;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 30px;
+    
+} 
+.section3-text span{
+    font-family: 'Zeyada', cursive;
+    margin-left: 25px;
+    font-size: 90px;
+}
+
+.footer{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+.footer h3{
+    padding: 10px;
+    text-align: center;
+}
+.footer img{
+    cursor: pointer;
+    margin: 5px;
+    width: 30px;
+}
+
+.about-heading{
+    font-family: 'Zeyada', cursive;
+}
